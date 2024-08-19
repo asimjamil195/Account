@@ -1,0 +1,132 @@
+body{
+    margin: 0px;
+    background: #fcfcfc;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    
+    
+    
+}
+.header{
+    background-color: #ffcb04;
+    height: 70px;
+    font-size: smaller;
+    display: flex;
+    
+}
+h2{
+    margin-left: 120px;
+}
+p{
+    border-bottom: 1px solid rgb(234, 232, 232);
+    padding: 10px;
+}
+
+.deliver-p{
+    padding-left: 5px;
+}
+.location-icon{
+width: 30px;
+height: 30px;
+margin-left:100px;
+margin-top:20px;
+
+}
+.logo-img{
+    margin-left: auto;
+    margin-right: auto;
+}
+.display-img{
+    width: 2000px;
+   max-height: 100%;
+    max-width: 100%;
+}
+.btn:hover{
+    background-color: #ffcb04;
+}
+.uni-div{
+    
+    margin-left: 200px;;
+    margin-right: 70px;
+    }
+
+.btn{
+  
+    background-color:#e5e5e5;
+    border: 0;
+    border-radius: 30px;
+    font-size:medium;
+    padding: 10px 30px 10px 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 5px;
+    /* border-bottom: 1px solid whitesmoke; */
+
+   
+}
+.menu-bar{
+    display: flex;
+    justify-content:space-around;
+    overflow: auto;
+    white-space: nowrap;
+}
+.food-img{
+    border-radius:25px ;
+
+}
+.back:hover{
+    border:2px solid #ffcb04;
+}
+.alfredo.back{
+    margin-left: 33px;
+}
+.back{
+    border: 2px solid rgb(209, 208, 204);
+    
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 500px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+   margin-right:20px;
+
+}
+b{
+    color: rgb(196, 20, 20);
+    font-size: medium;
+}
+.add-to-cart{
+    background-color: #d40000;
+    color: white;
+    border-radius:30px;
+    width:150px;
+    margin: auto;
+    border:0px ;
+    padding:10px 20px;
+    font-weight: bold;
+
+}
+hr{ 
+    height: 1.5px;
+    width: 800px;
+   filter:opacity(30%);
+
+    background-color:#e5e2e2;
+}
+.starters{
+   
+   display:flex;
+   flex:1;
+   flex-wrap:wrap;
+   justify-content:start;
+   
+}
+
